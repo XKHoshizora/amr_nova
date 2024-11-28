@@ -47,7 +47,7 @@ class Ui_MainWindow(object):
         font.setPointSize(14)
         self.robotStatusLabel.setFont(font)
 
-        self.statusBarLayout.addWidget(self.robotStatusLabel, 0, |Qt.AlignmentFlag.AlignVCenter)
+        self.statusBarLayout.addWidget(self.robotStatusLabel, 0, Qt.AlignmentFlag.Qt.AlignmentFlag.AlignVCenter)
 
         self.batteryStatusLabel = QLabel(self.centralwidget)
         self.batteryStatusLabel.setObjectName(u"batteryStatusLabel")
@@ -59,7 +59,7 @@ class Ui_MainWindow(object):
         self.velocityStatusLabel.setObjectName(u"velocityStatusLabel")
         self.velocityStatusLabel.setFont(font)
 
-        self.statusBarLayout.addWidget(self.velocityStatusLabel, 0, |Qt.AlignmentFlag.AlignVCenter)
+        self.statusBarLayout.addWidget(self.velocityStatusLabel, 0, Qt.AlignmentFlag.Qt.AlignmentFlag.AlignVCenter)
 
 
         self.mainVerticalLayout.addLayout(self.statusBarLayout)

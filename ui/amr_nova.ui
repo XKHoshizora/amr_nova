@@ -34,7 +34,7 @@
       <property name="margin" stdset="0">
        <number>10</number>
       </property>
-      <item alignment="|Qt::AlignmentFlag::AlignVCenter">
+      <item alignment="Qt::AlignmentFlag::Qt::AlignmentFlag::AlignVCenter">
        <widget class="QLabel" name="robotStatusLabel">
         <property name="font">
          <font>
@@ -58,7 +58,7 @@
         </property>
        </widget>
       </item>
-      <item alignment="|Qt::AlignmentFlag::AlignVCenter">
+      <item alignment="Qt::AlignmentFlag::Qt::AlignmentFlag::AlignVCenter">
        <widget class="QLabel" name="velocityStatusLabel">
         <property name="font">
          <font>
