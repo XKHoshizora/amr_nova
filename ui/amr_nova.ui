@@ -46,7 +46,7 @@
         </property>
        </widget>
       </item>
-      <item alignment="|Qt::AlignmentFlag::AlignVCenter">
+      <item alignment="Qt::AlignmentFlag::Qt::AlignmentFlag::AlignVCenter">
        <widget class="QLabel" name="batteryStatusLabel">
         <property name="font">
          <font>

@@ -53,7 +53,7 @@ class Ui_MainWindow(object):
         self.batteryStatusLabel.setObjectName(u"batteryStatusLabel")
         self.batteryStatusLabel.setFont(font)
 
-        self.statusBarLayout.addWidget(self.batteryStatusLabel, 0, |Qt.AlignmentFlag.AlignVCenter)
+        self.statusBarLayout.addWidget(self.batteryStatusLabel, 0, Qt.AlignmentFlag.Qt.AlignmentFlag.AlignVCenter)
 
         self.velocityStatusLabel = QLabel(self.centralwidget)
         self.velocityStatusLabel.setObjectName(u"velocityStatusLabel")
