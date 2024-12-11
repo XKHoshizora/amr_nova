@@ -4,9 +4,9 @@ project(amr_nova)
 # # Compile as C++11, supported in ROS Kinetic and newer
 # add_compile_options(-std=c++11)
 ## Qt设置
-set(CMAKE_AUTOMOC ON)
-set(CMAKE_AUTOUIC ON)
-set(CMAKE_AUTORCC ON)
+# set(CMAKE_AUTOMOC ON)
+# set(CMAKE_AUTOUIC ON)
+# set(CMAKE_AUTORCC ON)
 
 # # Find catkin macros and libraries
 # # if COMPONENTS list like find_package(catkin REQUIRED COMPONENTS xyz)
@@ -27,7 +27,7 @@ find_package(catkin REQUIRED COMPONENTS
 
 # # System dependencies are found with CMake's conventions
 # find_package(Boost REQUIRED COMPONENTS system)
-find_package(Qt6 REQUIRED COMPONENTS Widgets Core Gui)
+# find_package(Qt6 REQUIRED COMPONENTS Widgets Core Gui)
 
 # # Uncomment this if the package has a setup.py. This macro ensures
 # # modules and global scripts declared therein get installed

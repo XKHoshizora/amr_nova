@@ -83,6 +83,7 @@
   <exec_depend>tf2</exec_depend>
   <exec_depend>tf2_ros</exec_depend>
 
+  <exec_depend>python3-pyside6</exec_depend>
   <exec_depend>PySide6</exec_depend>
 
 
